@@ -5,7 +5,7 @@ class Livre
     private string $titre;
     private string $genre;
     private int $nbpage;
-
+    private int $nbp;
 
     public function __construct($titre, $genre, $nbpage)
     {
